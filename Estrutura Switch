@@ -1,0 +1,58 @@
+Estrutura Switch de escolha
+
+<?php
+$tipo = 3;
+switch ($var1){
+case 0:
+echo "Opção: ".$tipo." foi escolhida!";
+break;
+case 1:
+echo "Opção: ".$tipo." foi escolhida!";
+break;
+case 2:
+echo "Opção: ".$tipo." foi escolhida!";
+break;
+case 3:
+echo "Opção: ".$tipo." foi escolhida!";
+break;
+case 4:
+echo "Opção: ".$tipo." foi escolhida!";
+break;
+}
+echo"<br><br>";
+//-------------------------------------------------------------------------
+// Comando default
+$tipo = 5;
+switch ($tipo){
+case 0:
+        echo "Opção: ".$tipo." foi escolhida";
+break;
+case 1:
+break;
+case 2:
+break;
+case 3:
+break;
+case 4:
+break;
+default:
+        echo "Nenhuma opção escolhida";
+break;
+}
+echo"<br><br>";
+//--------------------------------------------------------------------------
+// Exemplo comum
+$letra = 'X';
+switch (strtoupper($letra)){
+case 'A':
+case 'E':
+case 'I':
+case 'O':
+case 'U':
+echo ("Esta letra é uma vogal");
+break;
+default:
+echo ("Esta letra é uma consoante");
+break;
+}
+?>
