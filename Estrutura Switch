@@ -20,12 +20,12 @@ echo "Opção: ".$tipo." foi escolhida!";
 break;
 }
 echo"<br><br>";
-//-------------------------------------------------------------------------
-// Comando default
-$tipo = 5;
-switch ($tipo){
+//--------------------------------------------------------------
+//Comando default
+$tipo=5;
+switch($tipo){
 case 0:
-        echo "Opção: ".$tipo." foi escolhida";
+ echo "Opção: ".$tipo." Cartão de crédito!";
 break;
 case 1:
 break;
@@ -36,23 +36,23 @@ break;
 case 4:
 break;
 default:
-        echo "Nenhuma opção escolhida";
+        echo "Nenhuma opção escolhida. Faça a escolha!";
 break;
 }
 echo"<br><br>";
-//--------------------------------------------------------------------------
+//---------------------------------------------------------------
 // Exemplo comum
-$letra = 'X';
-switch (strtoupper($letra)){
+$tipo='U';
+switch(strtoupper($tipo)){
 case 'A':
 case 'E':
 case 'I':
 case 'O':
 case 'U':
-echo ("Esta letra é uma vogal");
+ echo "A letra, ".$tipo." é uma vogal!";
 break;
 default:
-echo ("Esta letra é uma consoante");
+ echo "A letra, ".$tipo." é uma consoante!";
 break;
 }
 ?>
